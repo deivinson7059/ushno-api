@@ -19,13 +19,18 @@ use CodeIgniter\Config\BaseService;
  */
 class Services extends BaseService
 {
-	// public static function example($getShared = true)
-	// {
-	//     if ($getShared)
-	//     {
-	//         return static::getSharedInstance('example');
-	//     }
-	//
-	//     return new \CodeIgniter\Example();
-	// }
+    public static function getSecretKey()
+    {
+        return 'x2AbmufAtEtRLuJjlsUFNzignR7S0bV47vOJD_-k8UIfoikyxRo7wkseBUp7oOV-';
+    }
+
+    // public static function example($getShared = true)
+    // {
+    //     if ($getShared)
+    //     {
+    //         return static::getSharedInstance('example');
+    //     }
+    //
+    //     return new \CodeIgniter\Example();
+    // }
 }
