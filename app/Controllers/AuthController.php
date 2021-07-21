@@ -1,7 +1,7 @@
 <?php
 namespace App\Controllers;
 
-use App\Models\UserModel;
+use App\Models\AuthModel;
 use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\Config\Services;
 use CodeIgniter\RESTful\ResourceController;
@@ -16,26 +16,96 @@ class AuthController extends ResourceController
         helper('secure_password');
     }
 
+    public function renew()
+    {
+
+        $key = Services::getSecretKey();
+
+        $token = $this->request->getVar('token');
+
+        if ($token == null) {
+            return $this->failUnauthorized('No se proporciono JWT');
+        }
+
+        try
+        {
+            $valToken = JWT::decode($token, $key, ['HS256']);
+
+            $user_mail = $valToken->data->mail;
+
+            $AuthModel = new AuthModel();
+
+            $validateusuario = $AuthModel->where('user_mail', $user_mail)->first();
+            if ($validateusuario == null) {
+                $response = [
+                    'status'   => 401,
+                    'error'    => 401,
+                    'messages' => [
+                        'error' => 'Email no existe'
+                    ]
+                ];
+
+                return $this->respond($response, 200, 'Email no existe');
+
+            }
+
+            return $this->generateJWT($validateusuario);
+
+        } catch (\Exception$e) {
+            $response = [
+                'status'   => 400,
+                'error'    => 400,
+                'messages' => [
+                    'error' => 'JWT no valido'
+                ]
+            ];
+
+            return $this->respond($response, 200, 'JWT no valido');
+
+        }
+
+    }
+
     public function login()
     {
         try {
 
-            $username = $this->request->getVar('username');
-            $password = $this->request->getVar('password');
+            $user_mail = $this->request->getVar('user_mail');
+            $user_pass = $this->request->getVar('user_pass');
 
-            //print_r($username);
+            //print_r($user_mail);
 
-            $usermodel = new UserModel();
+            $AuthModel = new AuthModel();
 
-            $validateusuario = $usermodel->where('username', $username)->first();
+            $validateusuario = $AuthModel->where('user_mail', $user_mail)->first();
             if ($validateusuario == null) {
-                return $this->failNotFound('Usuario no existe');
+
+                $response = [
+                    'status'   => 401,
+                    'error'    => 401,
+                    'messages' => [
+                        'error' => 'Email no existe'
+                    ]
+                ];
+
+                return $this->respond($response, 200, 'Email no existe');
+
             }
 
-            if (verifyPassword($password, $validateusuario['password'])) {
+            if (verifyPassword($user_pass, $validateusuario['user_pass'])) {
                 return $this->generateJWT($validateusuario);
             } else {
-                return $this->failValidationErrors('Contraseña Errada');
+
+                $response = [
+                    'status'   => 401,
+                    'error'    => 401,
+                    'messages' => [
+                        'error' => 'Contraseña Errada'
+                    ]
+                ];
+
+                return $this->respond($response, 200, 'Contraseña Errada');
+
             }
 
         } catch (\Exception$e) {
@@ -52,18 +122,19 @@ class AuthController extends ResourceController
             'iat'  => $time,
             'exp'  => $time + 60 * 60 * 24,
             'data' => [
-                'nombre'   => $usuario['nombre'],
-                'username' => $usuario['username'],
-                'rol'      => $usuario['rol_id']
+                'name' => $usuario['user_name'],
+                'mail' => $usuario['user_mail'],
+                'rol'  => $usuario['rol_id']
             ]
         ];
         $jwt = JWT::encode($payload, $key);
 
         $response = [
             'status'   => 200,
-            'error'    => false,
-            'messages' => 'Login Correcto',
-            'tocken'   => $jwt
+            'token'    => $jwt,
+            'messages' => [
+                'success' => 'Login Correcto'
+            ]
 
         ];
         return $this->respondCreated($response);
@@ -77,29 +148,29 @@ class AuthController extends ResourceController
 
         try {
 
-            $nombre   = 'Deivinson Schmalbach';
-            $username = 'danisoft';
-            $password = 'Danisoft2016$';
-            $rol_id   = '1';
+            $user_name = 'Deivinson Schmalbach';
+            $user_mail = 'deivinson7059@gmail.com';
+            $user_pass = 'Danisoft2016$';
+            $rol_id    = '1';
 
-            $password2 = hashPassword($password);
+            $user_pass2 = hashPassword($user_pass);
 
             $data = [
-                'nombre'   => $nombre,
-                'username' => $username,
-                'password' => $password2,
-                'rol_id'   => $rol_id
+                'user_name' => $user_name,
+                'user_mail' => $user_mail,
+                'user_pass' => $user_pass2,
+                'rol_id'    => $rol_id
             ];
 
             //print_r($data);
-            $usermodel = new UserModel();
+            $AuthModel = new AuthModel();
 
-            $usermodel->insert($data);
+            $AuthModel->insert($data);
 
             $response = [
                 'status'   => 201,
                 'error'    => false,
-                'pass'     => $password2,
+                'pass'     => $user_pass2,
                 'messages' => [
                     'success' => 'Usuario Creado'
                 ]

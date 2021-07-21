@@ -5,8 +5,15 @@ use CodeIgniter\Model;
 
 class HorarioModel extends Model
 {
-    protected $table      = 'emisora_db.horarios';
-    protected $primaryKey = 'hor_id';
+    protected $table         = 'emisora_db.horarios';
+    protected $primaryKey    = 'hor_id';
+    protected $allowedFields = ['dia_id', 'horario', 'descripcion', 'frase', 'te_id', 'user_id'];
+
+    protected $returnType    = 'array';
+    protected $useTimestamps = true;
+    protected $createdField  = 'created_at';
+    protected $updatedField  = 'updated_at';
+    protected $deletedField  = 'deleted_at';
 
     public function updteHorario($datos)
     {
@@ -67,23 +74,21 @@ class HorarioModel extends Model
     {
 
         $db      = db_connect();
-        $builder = $db->table("emisora_db.horarios as h");
-        $builder->join('emisora_db.dias_sem as d', 'd.dia_id=h.dia_id');
-        $builder->join('emisora_db.teams as t', 't.te_id = h.te_id');
-        $aResult = $builder->get()->getResultArray();
-        return $aResult;
+        $builder = $db->table("emisora_db.gethorarios");
+        $query   = $builder->get();
+        return $query->getResultArray();
+
     }
 
-    public function getHorario($hor_id)
+    public function getHorario($dia_id)
     {
 
         $db      = db_connect();
-        $builder = $db->table("emisora_db.horarios as h");
-        $builder->join('emisora_db.dias_sem as d', 'd.dia_id=h.dia_id');
-        $builder->join('emisora_db.teams as t', 't.te_id = h.te_id');
-        $builder->where('hor_id', $hor_id);
+        $builder = $db->table("emisora_db.gethorarios");
+        $builder->where('dia_id', $dia_id);
         $aResult = $builder->get()->getResultArray();
         return $aResult;
+
     }
 
     public function getcbDia()
