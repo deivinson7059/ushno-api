@@ -8,6 +8,84 @@ class HorarioController extends ResourceController
 {
     use ResponseTrait;
 
+    public function deleteH()
+    {
+
+        $hor_id = $this->request->getVar('hor_id');
+
+        $borrarcontacto = new HorarioModel();
+        $borrarcontacto->where('hor_id', $hor_id)->delete($hor_id);
+        $data = [
+            'status'   => 200,
+            'messages' => [
+                'success' => 'Horario Eliminado'
+            ]
+
+        ];
+
+        return $this->respondCreated($data);
+
+    }
+
+    public function save()
+    {
+        $nuevoHorario = new HorarioModel();
+
+        $datos = [
+            'user_id'     => $this->request->getVar('user_id'),
+            'horario'     => $this->request->getVar('horario'),
+            'descripcion' => $this->request->getVar('descripcion'),
+            'te_id'       => $this->request->getVar('te_id'),
+            'dia_id'      => $this->request->getVar('dia_id'),
+            'frase'       => $this->request->getVar('frase')
+        ];
+
+        //print_r($datos);
+
+        $res["add"] = $nuevoHorario->addHorario($datos);
+
+        $data = [
+            'status'   => 200,
+            'messages' => [
+                'success' => 'Datos Creados'
+            ],
+            'res'      => $res
+
+        ];
+
+        return $this->respondCreated($data);
+
+    }
+
+    public function updateH()
+    {
+
+        $updatehorario = new HorarioModel(); // se crea el objeto de la clase HorarioModel
+        $datos         = [
+            'horario'     => $this->request->getVar('horario'),
+            'dia_id'      => $this->request->getVar('dia_id'),
+            'descripcion' => $this->request->getVar('descripcion'),
+            'frase'       => $this->request->getVar('frase'),
+            'te_id'       => $this->request->getVar('te_id'),
+            'hor_id'      => $this->request->getVar('hor_id'),
+            'user_id'     => $this->request->getVar('user_id')
+        ];
+
+        $res["mod"] = $updatehorario->updteHorario($datos);
+
+        $data = [
+            'status'   => 200,
+            'messages' => [
+                'success' => 'Datos Actualizados'
+            ],
+            'res'      => $res
+
+        ];
+
+        return $this->respondCreated($data);
+
+    }
+
     public function index()
     {
         $model = new HorarioModel();
@@ -80,15 +158,15 @@ class HorarioController extends ResourceController
 
     }
 
-    public function getHorario($dia_id)
+    public function getHorario($hor_id)
     {
         $model = new HorarioModel();
 
         $response = [
             'status'   => 200,
-            'lista'    => $model->getHorario($dia_id),
+            'lista'    => $model->getHorario($hor_id),
             'messages' => [
-                'success' => 'Horario dia: ' . $dia_id
+                'success' => 'Horario Id:' . $hor_id
             ]
         ];
         return $this->respondCreated($response);

@@ -35,37 +35,42 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'Home::index');
 
-//$routes->resource('api/horario', ['controller' => 'HorarioController']);
-
 #Creamos las rutas Protegidas
 $routes->group('admin', function ($routes) {
-
-#Creamos las rutas horarios
-    $routes->get('horario', 'HorarioController::index');
-    $routes->get('horario/(:num)', 'HorarioController::getHorario/$1');
-
-    $routes->get('horario/create', 'HorarioController::create');
     $routes->post('horario/save', 'HorarioController::save');
-    $routes->get('horario/delete/(:num)', 'HorarioController::delete/$1');
-    $routes->get('horario/edit/(:num)', 'HorarioController::edit/$1');
-    $routes->post('horario/update', 'HorarioController::update');
+    $routes->post('horario/update', 'HorarioController::updateH');
+    $routes->post('horario/delete', 'HorarioController::deleteH');
 
-    $routes->get('cbteams', 'HorarioController::getcbTeam');
-    $routes->get('cbdias', 'HorarioController::getcbDia');
+    $routes->post('videos/save', 'videosController::save');
+    $routes->post('videos/update', 'videosController::updateH');
+    $routes->get('videos/delete', 'videosController::deleteH');
+
+    $routes->post('galery/save', 'galeryController::save');
+    $routes->post('galery/update', 'galeryController::updateH');
+    $routes->post('galery/delete', 'galeryController::deleteH');
+
+    $routes->post('users/save', 'usersController::save');
+    $routes->post('users/update', 'usersController::updateH');
+    $routes->post('users/delete', 'usersController::deleteH');
+
+    $routes->post('perfil/save', 'perfilController::save');
+    $routes->post('perfil/update', 'perfilController::updateH');
+    $routes->post('perfil/delete', 'perfilController::deleteH');
 
 });
 
 $routes->group('auth', function ($routes) {
-
     $routes->get('new', 'AuthController::create');
     $routes->post('login', 'AuthController::login');
     $routes->post('renew', 'AuthController::renew');
-
 });
 
 $routes->group('emisora', function ($routes) {
+    $routes->get('horario', 'HorarioController::index');
     $routes->get('horario/(:num)', 'HorarioController::getHorario/$1');
     $routes->get('teams', 'TeamsController::index');
+    $routes->get('cbteams', 'HorarioController::getcbTeam');
+    $routes->get('cbdias', 'HorarioController::getcbDia');
 
 });
 

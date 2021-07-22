@@ -36,7 +36,7 @@ class Filters extends BaseConfig
     public $filters = [
         'authFilter' => [
             'before' => [
-                'admin85/*'
+                'adminY/*'
             ]
         ]
     ];

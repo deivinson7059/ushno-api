@@ -18,8 +18,6 @@ class HorarioModel extends Model
     public function updteHorario($datos)
     {
 
-        //print_r($datos);
-
         $user_id     = $datos['user_id'];
         $horario     = $datos['horario'];
         $descripcion = $datos['descripcion'];
@@ -28,15 +26,17 @@ class HorarioModel extends Model
         $frase       = $datos['frase'];
         $hor_id      = $datos['hor_id'];
 
+        //print_r($datos);
+
         $db = db_connect();
 
         $sql = "UPDATE emisora_db.horarios SET user_id='$user_id', horario='$horario',
               descripcion='$descripcion', te_id='$te_id', dia_id= '$dia_id',frase = '$frase'  WHERE hor_id='$hor_id';
                   ";
 
-        $consulta = $db->query($sql);
-
         //print_r($sql);
+
+        $consulta = $db->query($sql);
 
         if ($consulta == true) {
             return true;
@@ -80,12 +80,12 @@ class HorarioModel extends Model
 
     }
 
-    public function getHorario($dia_id)
+    public function getHorario($hor_id)
     {
 
         $db      = db_connect();
         $builder = $db->table("emisora_db.gethorarios");
-        $builder->where('dia_id', $dia_id);
+        $builder->where('hor_id', $hor_id);
         $aResult = $builder->get()->getResultArray();
         return $aResult;
 
