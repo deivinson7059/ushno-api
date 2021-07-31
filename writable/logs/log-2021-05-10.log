@@ -1,0 +1,555 @@
+CRITICAL - 2021-05-10 12:34:15 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 12:49:31 --> Use of undefined constant CURLOPT_RETURNTRASNFER - assumed 'CURLOPT_RETURNTRASNFER' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 13:44:38 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:45:01 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:46:53 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:48:43 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:49:29 --> Illegal string offset 'products'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:51:32 --> Illegal string offset 'product'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:51:39 --> Illegal string offset 'products'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:51:39 --> Illegal string offset 'products'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(23): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:54:54 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(13): json_decode(Object(stdClass))
+#2 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#4 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#7 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-10 13:55:19 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 13:55:25 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 13:57:38 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:57:45 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 13:59:06 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 13:59:28 --> Illegal string offset 'message'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:00:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:00:40 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:00:41 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:00:42 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:00:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:00:57 --> Illegal string offset 'message'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:01:05 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:02:35 --> Illegal string offset 'products'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:09:18 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:11:32 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:13:57 --> Illegal string offset 'message'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:14:46 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:14:58 --> syntax error, unexpected ''message'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 14:15:33 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:15:45 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:15:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:19:13 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 14:19:20 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:21:28 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 14:30:01 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 14:30:30 --> Array callback has to contain indices 0 and 1
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:30:42 --> Array callback has to contain indices 0 and 1
+#0 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#2 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 14:30:53 --> Illegal string offset 'message'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:32:03 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-10 14:32:44 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 14:38:14 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 14:38:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:42:17 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:45:32 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:46:05 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-10 14:46:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:46:58 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:47:02 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:47:15 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\fconsumirapi\app\Views\vproducto.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\fconsumirapi\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#3 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 14:52:03 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vproducto', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(26): view('vproducto', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostrar()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 17:28:58 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 17:29:54 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 17:30:03 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 17:47:55 --> syntax error, unexpected '*'
+#0 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 17:49:10 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\fconsumirapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 17:53:34 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vmuestrauno', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(66): view('vmuestrauno', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostraruno()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 17:53:48 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vmuestrauno', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(66): view('vmuestrauno', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostraruno()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 17:53:55 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vmuestrauno', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(66): view('vmuestrauno', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostraruno()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 17:54:07 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\fconsumirapi\system\Common.php(1119): CodeIgniter\View\View->render('vmuestrauno', Array, true)
+#1 C:\xampp\htdocs\fconsumirapi\app\Controllers\Cproducto.php(66): view('vmuestrauno', Array)
+#2 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(918): App\Controllers\Cproducto->mostraruno()
+#3 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cproducto))
+#4 C:\xampp\htdocs\fconsumirapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\fconsumirapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

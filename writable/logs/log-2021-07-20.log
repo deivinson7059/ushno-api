@@ -1,0 +1,205 @@
+CRITICAL - 2021-07-20 14:06:20 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-20 14:06:58 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-20 14:07:00 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-20 14:10:36 --> Class 'App\Filters\AuthFilter' not found
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('admin/horario', 'before')
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-07-20 14:11:31 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-20 14:12:12 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-20 14:14:13 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-20 14:52:23 --> Call to undefined method App\Controllers\AuthController::failValidationErrors()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 14:52:30 --> Call to undefined method App\Controllers\AuthController::failValidationErrors()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->login()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:04:25 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:04:26 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:04:48 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:04:49 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:04:50 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:05:38 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:05:39 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:05:40 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:06:45 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:06:49 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:06:51 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 15:07:13 --> Call to undefined function App\Controllers\hashPassword()
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->create()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:45:49 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:46:02 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:46:03 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:46:17 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:46:51 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:46:53 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:47:07 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:47:08 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:47:17 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:49:18 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 16:49:24 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\AuthController->renew()
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ushno-api\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-20 20:23:38 --> Call to undefined method App\Models\TeamsModel::fetch_all
+#0 D:\xampp\htdocs\ushno-api\app\Controllers\TeamsController.php(21): CodeIgniter\Model->__call('fetch_all', Array)
+#1 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(918): App\Controllers\TeamsController->index()
+#2 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TeamsController))
+#3 D:\xampp\htdocs\ushno-api\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ushno-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
