@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'emisora_db',
+        'hostname' => 'www.danisoft.com.co',
+        'username' => 'danisoftcom_emisora_db',
+        'password' => 'Danisoft2016$',
+        'database' => 'danisoftcom_emisora_db',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

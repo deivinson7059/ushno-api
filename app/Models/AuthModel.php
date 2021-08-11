@@ -5,7 +5,7 @@ use CodeIgniter\Model;
 
 class AuthModel extends Model
 {
-    protected $table      = 'emisora_db.users';
+    protected $table      = 'danisoftcom_emisora_db.users';
     protected $primaryKey = 'user_id';
 
     protected $allowedFields = ['user_name', 'user_mail', 'user_pass', 'rol_id'];

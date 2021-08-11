@@ -21,7 +21,7 @@ class App extends BaseConfig
     | environments.
     |
      */
-    public $baseURL = 'http://localhost/ushno-api/public/';
+    public $baseURL = 'https://api-web.danisoft.com.co/ushno-api/public/';
 
     /*
     |--------------------------------------------------------------------------

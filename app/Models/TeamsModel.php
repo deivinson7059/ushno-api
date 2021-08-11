@@ -5,7 +5,7 @@ use CodeIgniter\Model;
 
 class TeamsModel extends Model
 {
-    protected $table      = 'emisora_db.teams';
+    protected $table      = 'danisoftcom_emisora_db.teams';
     protected $primaryKey = 'te_id';
 
     protected $allowedFields = ['te_nombre', 'te_nick', 'te_image'];
